@@ -210,8 +210,9 @@ const App: React.FC = () => {
             <br /> y nuestra historia es prueba de ello.
           </h2>
           <div
-						data-speed={0.95}
-						className='relative columns-2 sm:columns-3 gap-4 *:mb-4 @sm:-mb-8 @sm:columns-3 @sm:gap-8 @sm:*:mb-8 max-w-[1180px] mx-auto'>
+            data-speed={0.95}
+            className='relative columns-2 sm:columns-3 gap-4 *:mb-4 @sm:-mb-8 @sm:columns-3 @sm:gap-8 @sm:*:mb-8 max-w-[1180px] mx-auto'
+          >
             {galleryImages.map((image, index) => (
               <img
                 key={index}
@@ -257,7 +258,7 @@ const App: React.FC = () => {
                 RECINTO SOFO, TEMUCO
               </p>
               <p className='text-lg mt-2 font-[Playfair_Display]'>
-                Av. Alemania 1234, Temuco, Chile
+                Rudecindo Ortega 3502, Temuco, Chile
               </p>
               <div className='mt-4 bg-gray-200 rounded-lg overflow-hidden h-55 relative'>
                 <a
