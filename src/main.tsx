@@ -119,7 +119,6 @@ const App: React.FC = () => {
             // backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}
-          data-speed={0.4}
         >
           {/* <img src={headerBg} alt='Map' className='object-cover absolute w-full h-full' /> */}
           <div className='max-w-[1024px] flex flex-col md:flex-row w-full h-full relative z-10'>
