@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import {
-  HTMLMotionProps,
+  type HTMLMotionProps,
   motion,
   useMotionValue,
   useSpring,

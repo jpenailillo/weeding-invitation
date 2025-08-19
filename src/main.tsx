@@ -23,7 +23,7 @@ import gallery12 from './assets/galley/12.jpg';
 
 import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from './components/ui/drawer';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './components/ui/carousel';
-import { BookHeart, Building, Gift, MessageCircleHeart, CalendarArrowDown, PartyPopper, Sparkle, Sparkles } from 'lucide-react'
+import { BookHeart, Building, Gift, MessageCircleHeart, CalendarArrowDown, PartyPopper } from 'lucide-react'
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
